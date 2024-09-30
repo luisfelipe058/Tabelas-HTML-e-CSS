@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com HTML e CSS</title>
+    <style>
+        table {
+            border: 1px solid #000000;
+            width: 50%;
+            margin: auto;
+            border-collapse: separate;
+        }
+
+        th,
+        td {
+            border: 1px solid #000000;
+            padding: 7px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #a9a9a9;
+        }
+
+        tr {
+            background-color: cornflowerblue;
+        }
+
+        tr:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Preços de Produtos Eletrônicos</caption>
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th>Preços</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 3.500,00</td>
+            </tr>
+
+            <tr>
+                <td>Smartphone</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 4.700,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+   
+    <table>
+        <caption>Contas do Mes</caption>
+        <thead>
+    </thead>
+        <tr>
+            <th colspan="3">Contas Fixas</th>
+            <th colspan="1">Preço</th>
+        </tr>
+    </thead>
+        <tr>
+            <td colspan="2">Água</td>
+            <td>Dia 30</td>
+            <td>R$ 250,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Luz</td>
+            <td>Dia 30</td>
+            <td>R$ 200,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Internet</td>
+            <td>Dia 26</td>
+            <td>R$ 112,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Assinaturas</td>
+            <td>Dia 5</td>
+            <td>R$ 85,00</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
